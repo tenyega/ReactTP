@@ -1,12 +1,11 @@
-import TypingEffect from "../partials/typingEffect";
-
+import TypedComponent from "../partials/typingEffect";
 export default function HeroSection() {
   
   return (
     <section id="hero" className="d-flex flex-row justify-content-center bg-sky-500/20">
       <div className="container text-black opacity-1" data-aos="zoom-in" data-aos-delay={100}>
         <h1>Basara Migmar Dolma</h1>
-        <p>I'm <span className="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"> <TypingEffect  /></span>
+        <p>I'm <span className="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"> <TypedComponent /></span>
         </p>
         <div className="social-links">
           <a href="#" className="twitter"><img src="https://api.iconify.design/logos:twitter.svg?color=%23888888" alt="Home" className="h-6 w-6" /></a>
