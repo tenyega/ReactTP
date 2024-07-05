@@ -1,24 +1,25 @@
 import  { useEffect } from 'react';
-import Typed from 'typed.js';
+// import Typed from 'typed.js';
 
 const TypingEffect = () => {
   useEffect(() => {
     const typedElement = document.querySelector('.typed');
+  
     if (typedElement) {
-      const typedStrings = typedElement.getAttribute('data-typed-items').split(',');
-      const options = {
-        strings: typedStrings,
-        loop: true,
-        typeSpeed: 100,
-        backSpeed: 50,
-        backDelay: 2000,
-      };
+      // const typedStrings = typedElement.getAttribute('data-typed-items')?typedElement.getAttribute('data-typed-items')?.split(','):'';
+      // const options = {
+      //   strings: typedStrings,
+      //   loop: true,
+      //   typeSpeed: 100,
+      //   backSpeed: 50,
+      //   backDelay: 2000,
+      // };
 
-      const typed = new Typed('.typed', options);
+      //const typed = new Typed('.typed',options);
 
       // Cleanup function to destroy Typed instance when component unmounts
       return () => {
-        typed.destroy();
+        // typed.destroy();
       };
     }
   }, []);
