@@ -11,7 +11,7 @@ export default function About() {
 
         <div className="flex flex-row pb-20">
           <div className="col-lg-4 w-1/3">
-            <img src="../public/assets/profile-img.jpg" className="img-fluid" alt="" />
+            <img src="./assets/profile-img.jpg" className="img-fluid" alt="" />
           </div>
           <div className="col-lg-8 pt-4 pt-lg-0 content pl-5 w-2/3 gap-4">
             <h3>UI/UX Designer &amp; Web Developer.</h3>
